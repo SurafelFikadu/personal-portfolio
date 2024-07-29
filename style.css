@@ -27,7 +27,7 @@ html {
 }
 
 .fas {
-    display: none;
+    display: none !important;
 }
 
 .header ul {
@@ -55,7 +55,7 @@ html {
     }
 
     .fas {
-        display: block;
+        display: block !important;
         cursor: pointer;
     }
 
@@ -298,4 +298,11 @@ html {
 .contact-section a:hover {
     transition: transform 0.3s ease 0s;
     transform: translateY(10px);
+}
+
+/* ------- footer ---------- */
+footer div {
+    padding: 1rem;
+    background: #111;
+    color: #eee;
 }
