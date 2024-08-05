@@ -140,6 +140,7 @@ header ul a:hover {
 
 #work h1 {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 #works {
@@ -257,7 +258,7 @@ header ul a:hover {
 }
 
 #education h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* contant */
