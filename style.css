@@ -131,11 +131,11 @@ header ul a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 4px solid rgb(144, 146, 139);
-    border-radius: 8px;
+    /* border: 4px solid rgb(144, 146, 139); */
+    /* border-radius: 8px; */
     padding: 20px 0;
     color: #fff;
-    background-color: #111;
+    background-color: #ddd;
 }
 
 #work h1 {
@@ -257,8 +257,9 @@ header ul a:hover {
     height: 100%;
 }
 
-#education h1 {
+#education>h1 {
     margin-bottom: 2rem;
+    color: #ff0000;
 }
 
 /* contant */
@@ -341,3 +342,9 @@ footer div {
         font-style: Raleway, sans-serif;
     }
 }
+
+/* .bar {
+    height: 1px;
+    width: 12px;
+    background: white;
+} */
