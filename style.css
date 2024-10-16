@@ -31,7 +31,9 @@ html {
 
 .header ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
+    align-items: center;
+    gap: 7%;
     width: 64%;
 }
 
